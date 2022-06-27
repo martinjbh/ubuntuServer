@@ -5,9 +5,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 //////////DB///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// const { sequelize } = require('./db/db')
+const { sequelize } = require('./db/db')
 ////////SERVIDOR////////
-let port = process.env.PORT || 8080
+let port = process.env.PORT || 8180
 app.listen(port, () => {
     console.log('Server run on Port =>  ' + port)
 })
