@@ -1,5 +1,5 @@
 const { Sequelize, DataTypes ,Op} = require('sequelize');
-const sequelize = new Sequelize('postgres://postgres:cr1st1n4buf1d1s@localhost:5432/', { logging: false })
+const sequelize = new Sequelize('postgres://postgres:l4zl0b4rr31r0@localhost:5432/', { logging: false })
 // const sequelize = new Sequelize({
 //     database: "dividendo",
 //     username: "postgres",
