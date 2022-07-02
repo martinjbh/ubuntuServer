@@ -10,7 +10,7 @@ const { sequelize } = require('./db/db')
 ////////SERVIDOR////////
 let port = process.env.PORT || 8280
 app.listen(port, () => {
-    console.log('Server run on Port sisi =>  ' + port)
+    console.log('Server run on Port probando =>  ' + port)
     sequelize.sync({ alter: true })
 })
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
